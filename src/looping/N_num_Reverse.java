@@ -1,4 +1,4 @@
-package operations;
+package looping;
 
 public class N_num_Reverse {
     public static void main(String[] args) {

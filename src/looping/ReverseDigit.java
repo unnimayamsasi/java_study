@@ -1,6 +1,6 @@
-package operations;
+package looping;
 
-public class ReverseString {
+public class ReverseDigit {
     public static void main(String[] args) {
         int num=12345;
         int reverse=0 ;

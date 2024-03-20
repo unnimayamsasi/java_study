@@ -1,4 +1,4 @@
-package operations;
+package looping;
 
 public class Multiplication {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package operations;
+package arrays;
 
 public class Array_searchEleme {
     public static void main(String[] args) {

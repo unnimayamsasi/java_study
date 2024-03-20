@@ -1,4 +1,4 @@
-package operations;
+package arrays;
 
 public class Array_smallest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package operations;
+package arrays;
 
 public class Array_reverse {
     public static void main(String[] args) {

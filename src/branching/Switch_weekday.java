@@ -1,4 +1,4 @@
-package operations;
+package branching;
 
 public class Switch_weekday {
     public static void main(String[] args) {
