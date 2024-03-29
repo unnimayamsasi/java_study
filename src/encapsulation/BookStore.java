@@ -21,11 +21,12 @@ public class BookStore {
             if (book.getId()==SearchId){
                 book.printDetails();
                 break;
+            }else {
+                System.out.println("Id not found");
+
             }
 
         }
-        if(!found){
-            System.out.println("Id not found");
-        }
+
     }
 }
