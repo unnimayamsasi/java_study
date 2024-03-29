@@ -1,36 +1,35 @@
 package encapsulation;
 
+    class EmployeeTen {
+        private String name;
+        private String id;
+        private String position;
+        private double salary;
 
- class EmployeeTen {
-     private String name;
-     private String id;
-     private String position;
-     private double salary;
+        public EmployeeTen(String name, String id, String position, double salary) {
+            this.name = name;
+            this.id = id;
+            this.position = position;
+            this.salary = salary;
+        }
 
-     public EmployeeTen(String name, String id, String position, double salary) {
-         this.name = name;
-         this.id = id;
-         this.position = position;
-         this.salary = salary;
-     }
+        public String getName() {
+            return name;
+        }
 
-     public String getName() {
-         return name;
-     }
+        public String getId() {
 
-     public String getId() {
+            return id;
+        }
 
-         return id;
-     }
+        public String getPosition() {
+            return position;
+        }
 
-     public String getPosition() {
-         return position;
-     }
-
-     public double getSalary() {
-         return salary;
-     }
- }
+        public double getSalary() {
+            return salary;
+        }
+    }
     public class EmployeeRecordsArray {
         public static void main(String[] args) {
             EmployeeTen[] employees = new EmployeeTen[10];
@@ -61,16 +60,3 @@ package encapsulation;
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
